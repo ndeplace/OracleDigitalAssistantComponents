@@ -6,12 +6,17 @@
   "scripts": {
     "bots-node-sdk": "bots-node-sdk",
     "help": "npm run bots-node-sdk -- --help",
-    "prepack": "npm run bots-node-sdk -- pack --dry-run",
-    "start": "npm run bots-node-sdk -- service .",
+    "prepack": "npm run bots-node-sdk -- --pack --dry-run",
+    "start": "npm run bots-node-sdk -- --service .",
     "test": "jasmine"
   },
   "repository": {},
-  "dependencies": {},
+  "dependencies": {
+    "htmlparser": "^1.7.7",
+    "htmlparser2": "^4.0.0",
+    "request": "^2.88.0",
+    "zlib": "^1.0.5"
+  },
   "devDependencies": {
     "@oracle/bots-node-sdk": "^2.2.2",
     "express": "^4.16.3",
