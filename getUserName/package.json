@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@oracle/bots-node-sdk": "^2.2.2",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "jasmine": "^3.5.0"
   },
   "bundledDependencies": []
